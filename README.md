@@ -5,8 +5,8 @@ Welcome to my portfolio project, a showcase of my skills and projects in web dev
 > **Showcasing My Journey, Inspiring My Future**
 
 
-[![Top Language](https://img.shields.io/github/languages/top/razeevascx/Portfolio?style=for-the-badge&color=0080ff)](https://github.com/razeevascx/Portfolio)
-[![Language Count](https://img.shields.io/github/languages/count/razeevascx/Portfolio?style=for-the-badge&color=0080ff)](https://github.com/razeevascx/Portfolio)
+[![Top Language](https://img.shields.io/github/languages/top/subodhisacat/Portfolio?style=for-the-badge&color=0080ff)](https://github.com/subodhisacat/Portfolio)
+[![Language Count](https://img.shields.io/github/languages/count/subodhisacat/Portfolio?style=for-the-badge&color=0080ff)](https://github.com/subodhisacat/Portfolio)
 
 ### 🛠️ Built with
 
@@ -62,7 +62,7 @@ Welcome to my portfolio project, a showcase of my skills and projects in web dev
 ### ✅ **Prerequisites**
 
 - Node.js (Latest LTS version)
-- pnpm (Package Manager)
+- npm (Package Manager)
 
 ### ⚙️ **Installation**
 
@@ -81,7 +81,7 @@ cd Portfolio
 3. **Install dependencies:**
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### 🔥 **Development**
@@ -89,7 +89,7 @@ pnpm install
 Start the development server:
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 ### 🏗️ **Build**
@@ -97,7 +97,7 @@ pnpm dev
 Build for production:
 
 ```bash
-pnpm build
+npm build
 ```
 
 ### 🔍 **Other Scripts**
@@ -105,29 +105,29 @@ pnpm build
 - **Preview production build:**
 
 ```bash
-pnpm preview
+npm preview
 ```
 
 - **Lint code:**
 
 ```bash
-pnpm lint
+npm lint
 ```
 
 - **Format code:**
 
 ```bash
-pnpm format
+npm format
 ```
 
 - **Generate routes:**
 
 ```bash
-pnpm generate-routes
+npm generate-routes
 ```
 
 - **Watch routes for changes:**
 
 ```bash
-pnpm watch-routes
+npm watch-routes
 ```
