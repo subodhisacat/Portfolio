@@ -69,7 +69,7 @@ Welcome to my portfolio project, a showcase of my skills and projects in web dev
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/razeevascx/Portfolio
+git clone https://github.com/subodhisacat/Portfolio
 ```
 
 2. **Navigate to the project directory:**
