@@ -23,7 +23,7 @@ const splashScreens = [
 ];
 
 async function generateFavicons() {
-  const inputFile = join(__dirname, "../public/name.svg");
+  const inputFile = join(__dirname, "../public/name.png");
 
   try {
     for (const { size, name } of sizes) {
@@ -47,7 +47,7 @@ async function generateFavicons() {
 }
 
 async function generateSplashScreens() {
-  const inputFile = join(__dirname, "../public/name.svg");
+  const inputFile = join(__dirname, "../public/name.png");
   const outputDir = join(__dirname, "../public/splash");
 
   try {
