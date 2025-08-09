@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { projectList } from "../utils/Constants";
 import Items from "../components/Items";
-import ProjectCard2 from "../components/ProjectCard2";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
@@ -26,7 +26,7 @@ const Projects = () => {
 
         <div className="space-y-20">
           {projectList.map((project, index) => (
-            <ProjectCard2 key={index} {...project} />
+            <ProjectCard key={index} {...project} />
           ))}
         </div>
       </motion.div>

@@ -1,15 +1,5 @@
-import { FaReact, FaNodeJs, FaPython, FaDocker } from "react-icons/fa";
-import {
-  SiMongodb,
-  SiExpress,
-  SiRedux,
-  SiTailwindcss,
-  SiVite,
-  SiFramer,
-  SiTypescript,
-  SiNextdotjs,
-  SiSupabase,
-} from "react-icons/si";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
+import { SiTailwindcss, SiVite, SiFramer } from "react-icons/si";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import { Home, User, Zap, Rocket, Mail } from "lucide-react";
 import { FaDatabase, FaPalette, FaLayerGroup } from "react-icons/fa";
@@ -52,11 +42,12 @@ export const projectList = [
     title: "Word Guessing Game",
     description:
       "A simple and fun Word guessing game made with HTML, CSS, and JavaScript—guess the word before you run out of lives!",
-    link: "",
-    // image: "image.png",
+    link: "https://github.com/subodhisacat/Word-Guessing-Game",
+    image: "subodhisacat.github.io_Word-Guessing-Game_.png",
     tech: {
-      react: { id: "React", icon: <FaReact className="text-[#61DAFB]" /> },
-      nodejs: { id: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
+      html: { id: "Html", icon: <FaHtml5 className="text-orange-500" /> },
+      css: { id: "Css", icon: <FaCss3 className="text-blue-600" /> },
+      js: { id: "Javascript", icon: <FaJs className="text-yellow-400" /> },
     },
   },
   {
@@ -64,8 +55,11 @@ export const projectList = [
     description:
       "A simple dictionary app built with Node.js that lets users search word meanings quickly.",
     link: "https://github.com/subodhisacat/dictonary",
+    image: "subodhisacat.github.io_dictonary_.png",
     tech: {
-      nodejs: { id: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
+      html: { id: "Html", icon: <FaHtml5 className="text-orange-500" /> },
+      css: { id: "Css", icon: <FaCss3 className="text-blue-600" /> },
+      js: { id: "Javascript", icon: <FaJs className="text-yellow-400" /> },
     },
   },
   {
@@ -73,6 +67,7 @@ export const projectList = [
     description:
       "A personal portfolio website to showcase projects, skills, and experiences, with a modern and professional design.",
     link: "https://subodhtimilsina.com.np",
+    image: "portfilio.png",
     tech: {
       react: { id: "React", icon: <FaReact className="text-[#61DAFB]" /> },
       tailwind: {

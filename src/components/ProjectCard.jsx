@@ -1,14 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
- const Project = ({
-  title,
-  description,
-  link,
-  tech,
-  image,
-  date = "2024",
-}) => {
+const Project = ({ title, description, link, tech, image, date = "2024" }) => {
   const [imageError, setImageError] = useState(false);
 
   return (
@@ -51,17 +44,19 @@ import { motion } from "framer-motion";
               </span>
             ))}
           </div>
-          <a
+          <motion.a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center text-sm text-white hover:text-blue-400 transition-colors duration-300 group"
+            whileHover={{ x: 4 }}
+            className="inline-flex items-center text-sm font-medium text-blue-400 hover:text-blue-300
+                       transition-colors duration-300 group mt-4"
           >
             View Project{" "}
             <span className="ml-1 group-hover:translate-x-1 transition-transform duration-300">
-              &rarr;
+              →
             </span>
-          </a>
+          </motion.a>
         </div>
       </div>
     </motion.div>
