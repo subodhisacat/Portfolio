@@ -1,6 +1,5 @@
 import { FaReact, FaNodeJs, FaHtml5, FaCss3, FaJs } from "react-icons/fa";
 import { SiTailwindcss, SiVite, SiFramer } from "react-icons/si";
-import { Github, Linkedin, Twitter } from "lucide-react";
 import { Home, User, Zap, Rocket, Mail } from "lucide-react";
 import { FaDatabase, FaPalette, FaLayerGroup } from "react-icons/fa";
 import { BiCodeBlock } from "react-icons/bi";
@@ -91,14 +90,6 @@ export const socialLinks = [
     hoverColor: "hover:text-white",
     bgColor: "bg-white/10",
     description: "Latest updates & thoughts",
-  },
-  {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/",
-    icon: <Linkedin className="w-6 h-6" />,
-    hoverColor: "hover:text-blue-600",
-    bgColor: "bg-blue-600/10",
-    description: "Professional network",
   },
   {
     name: "GitHub",
