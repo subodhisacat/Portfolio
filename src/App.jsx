@@ -1,4 +1,5 @@
 import React, { lazy, Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Footer from "./pages/Footer";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Hero/Index";
@@ -139,6 +140,7 @@ function App() {
           </>
         </Suspense>
         <Toaster />
+        <Analytics />
       </ErrorBoundary>
     </div>
   );
